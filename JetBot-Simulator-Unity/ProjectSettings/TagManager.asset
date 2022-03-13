@@ -6,6 +6,9 @@ TagManager:
   tags:
   - FakeAgent
   - Floor
+  - Checkpoint
+  - Obstacle
+  - End
   layers:
   - Default
   - TransparentFX

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using WebSocketSharp;
+using System;
 
 public class jetbotCamera : MonoBehaviour
 {
@@ -33,8 +34,14 @@ public class jetbotCamera : MonoBehaviour
 
     void SendMessage()
     {
-        byte[] byteArray = sendCameraTexture();
+        byte[] img = sendCameraTexture();
+        byte[] reward = BitConverter.GetBytes(GetComponent<getReward>().reward);
+        byte[] byteArray = new byte[img.Length + reward.Length];
+        Buffer.BlockCopy(reward, 0, byteArray, 0, reward.Length);
+        Buffer.BlockCopy(img, 0, byteArray, reward.Length, img.Length);
         ws.Send(byteArray);
+        //print(byteArray[0]);
+        GetComponent<getReward>().reward = 0;
     }
 
     byte[] sendCameraTexture(){
