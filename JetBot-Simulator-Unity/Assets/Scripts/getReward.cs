@@ -28,7 +28,8 @@ public class getReward : MonoBehaviour
 
     void OnCollisionEnter(Collision other) {
         if(other.gameObject.tag == "Obstacle")
-            reward = -1;
+            print("collision!");
+            //reward = -1;
     }
 
 }

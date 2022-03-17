@@ -32,9 +32,9 @@ class Camera():
         print("\n[Start Observation]")
         while True:
             if self.buffer is not None and self.on_change:
-                nparr = np.fromstring(self.buffer, np.uint8)
+                nparr = np.fromstring(self.buffer[4:], np.uint8)
                 value = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-                execute({"new":value.copy(), "old":self.old_value})
+                execute({"new":value.copy(), "old":self.old_value, "reward":int.from_bytes(self.buffer[:4], 'little')})
                 self.old_value = value.copy()
                 self.on_change = False
             k = cv2.waitKey(1)

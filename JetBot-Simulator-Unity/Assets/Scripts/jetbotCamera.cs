@@ -12,6 +12,7 @@ public class jetbotCamera : MonoBehaviour
     public RenderTexture tex;
     float invoke_timer = 0f;
     public float invoke_interval = 1.0f;
+    public bool send = false;
 
     // Start is called before the first frame update
     void Start()
@@ -23,13 +24,17 @@ public class jetbotCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        invoke_timer += Time.deltaTime;
+        if(!send){
+            send = true;
+            SendMessage();
+        }
+        /*invoke_timer += Time.deltaTime;
         if(invoke_timer >= invoke_interval)
         {
             SendMessage();
             invoke_timer = 0;
             //Debug.Log("Invoke !");
-        }
+        }*/
     }
 
     void SendMessage()
@@ -40,7 +45,6 @@ public class jetbotCamera : MonoBehaviour
         Buffer.BlockCopy(reward, 0, byteArray, 0, reward.Length);
         Buffer.BlockCopy(img, 0, byteArray, reward.Length, img.Length);
         ws.Send(byteArray);
-        //print(byteArray[0]);
         GetComponent<getReward>().reward = 0;
     }
 
