@@ -37,10 +37,10 @@ class Camera():
                 execute({"new":value.copy(), "old":self.old_value, "reward":int.from_bytes(self.buffer[:4], 'little')})
                 self.old_value = value.copy()
                 self.on_change = False
-            k = cv2.waitKey(1)
-            if k == 27:
-                print("\n[End Observation]")
-                break
+            #k = cv2.waitKey(1)
+            #if k == 27:
+            #    print("\n[End Observation]")
+            #    break
 
 # Observation Test
 if __name__ == "__main__":
