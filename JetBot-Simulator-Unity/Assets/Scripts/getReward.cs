@@ -6,6 +6,7 @@ public class getReward : MonoBehaviour
 {
     // Start is called before the first frame update
     public int reward = 0;
+    public bool done = false;
     void Start()
     {
     }
@@ -22,7 +23,7 @@ public class getReward : MonoBehaviour
             reward = 1;
         }
         if(other.gameObject.tag == "End"){
-            reward = 1;
+            done = true;
         }
     }
 

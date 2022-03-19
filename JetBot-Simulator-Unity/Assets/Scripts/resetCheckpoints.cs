@@ -20,7 +20,8 @@ public class resetCheckpoints : MonoBehaviour
     public void reset()
     {
         foreach (var checkpoint in checkpoints){
-            checkpoint.SetActive(true);
+            checkpoint.GetComponent<reset>().R();
         }
+        GameObject.Find("JetBot").GetComponent<getReward>().done = false;
     }
 }

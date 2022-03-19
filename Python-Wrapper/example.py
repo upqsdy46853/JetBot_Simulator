@@ -27,6 +27,9 @@ total_steps = 0
 states = []
 next_states = []
 rewards = []
+total_rewards = []
+acc_rewards = 0
+best_mean = 0
 device = 'cpu'
 net = DQN((3,45,80),k).to(device)
 tgt_net = DQN((3,45,80),k).to(device)
@@ -71,13 +74,14 @@ def calc_loss():
     return nn.MSELoss()(state_action_values, expected_state_action_values)
 
 def reset():
-    global robot, action, frames, states, next_states, rewards
+    global robot, action, frames, states, next_states, rewards, acc_rewards
     robot.reset()
     action = 0
     frames = 0
     states = []
     next_states = []
     rewards = []
+    acc_rewards = 0
 
 def step(action):
     global robot
@@ -89,7 +93,7 @@ def step(action):
         robot.set_motor(0., 0.2)
 
 def execute(change):
-    global frames, states, next_states, rewards, action, total_steps, episode, epsilon
+    global frames, states, next_states, rewards, action, total_steps, episode, epsilon, acc_rewards, best_mean
 
     # Visualize
     img = cv2.resize(change["new"],(80,45))
@@ -97,6 +101,7 @@ def execute(change):
     #cv2.imshow("camera", img)
     #cv2.waitKey(1)
     reward = change['reward']
+    acc_rewards += reward
 
     frames += 1
     print('Episode:'+ str(episode) + ' Frames:' + str(frames) + ' Epsilon:' + str(epsilon))
@@ -131,14 +136,21 @@ def execute(change):
             _, act_v = torch.max(q_vals_v, dim=1)
         action = int(act_v)
 
-    if frames < 500: 
-        step(action)
-    else:
+    if frames > 450 or change['done']: 
         episode += 1
+        total_rewards.append(acc_rewards)
+        mean_reward = np.mean(total_rewards[-30:])
+        if best_mean < mean_reward:
+            print("Best mean reward updated %.3f -> %.3f, model saved" % (best_mean, mean_reward))
+            torch.save(net.state_dict(), "best_model.dat")
+            best_mean = mean_reward
         reset()
+    else:
+        step(action)
 
+    # testing
     #i = input()
-    #if i == 'r':
+    #if i == 'r' or change['done']:
     #    robot.reset()
     #elif i == 'a':
     #    robot.set_motor(0., 0.2)

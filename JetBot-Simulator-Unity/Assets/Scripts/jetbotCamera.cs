@@ -41,9 +41,11 @@ public class jetbotCamera : MonoBehaviour
     {
         byte[] img = sendCameraTexture();
         byte[] reward = BitConverter.GetBytes(GetComponent<getReward>().reward);
-        byte[] byteArray = new byte[img.Length + reward.Length];
+        byte[] done = BitConverter.GetBytes(GetComponent<getReward>().done);
+        byte[] byteArray = new byte[img.Length + reward.Length + done.Length];
         Buffer.BlockCopy(reward, 0, byteArray, 0, reward.Length);
-        Buffer.BlockCopy(img, 0, byteArray, reward.Length, img.Length);
+        Buffer.BlockCopy(done, 0, byteArray, reward.Length, done.Length);
+        Buffer.BlockCopy(img, 0, byteArray, reward.Length + done.Length, img.Length);
         ws.Send(byteArray);
         GetComponent<getReward>().reward = 0;
     }

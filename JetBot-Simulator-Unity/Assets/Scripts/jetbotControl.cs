@@ -39,8 +39,10 @@ public class jetbotControl : MonoBehaviour
     {
         jetbotMotorCommand cdata = JsonUtility.FromJson<jetbotMotorCommand>(command);
         receive = true;
-        if (cdata.flag == 0)
+        if (cdata.flag == 0){
             jw.reset();
+            GameObject.Find("Main Camera").GetComponent<resetCheckpoints>().reset();
+        }
         else if(cdata.flag == 1)
             jw.setLeftMotorValue(cdata.leftMotor);
         else if(cdata.flag == 2)

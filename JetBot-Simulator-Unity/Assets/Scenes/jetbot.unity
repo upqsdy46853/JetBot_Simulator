@@ -653,12 +653,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -758,12 +758,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -1316,12 +1316,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -1651,12 +1651,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -2377,12 +2377,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -2494,12 +2494,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -3206,12 +3206,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -3763,12 +3763,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -4275,12 +4275,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -4386,12 +4386,17 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2375672723175645251, guid: bbea7dd68efd344ac9153f62147492c1,
+        type: 3}
+      propertyPath: m_TagString
       value: End
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -4599,12 +4604,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -4899,12 +4904,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -5004,12 +5009,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -5115,12 +5120,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -5226,12 +5231,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -5435,12 +5440,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -5786,12 +5791,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -5891,12 +5896,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -6086,12 +6091,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -6286,12 +6291,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -6391,12 +6396,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -6557,12 +6562,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -6668,12 +6673,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -6998,12 +7003,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -7103,12 +7108,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -7282,12 +7287,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -7387,12 +7392,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -7498,12 +7503,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -7892,12 +7897,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -8088,12 +8093,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -8199,12 +8204,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -8304,12 +8309,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -8601,12 +8606,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -8866,12 +8871,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -9315,12 +9320,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -9597,12 +9602,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -10080,12 +10085,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -10185,12 +10190,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -10290,12 +10295,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -10395,12 +10400,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -10608,12 +10613,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -10800,12 +10805,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -11269,12 +11274,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -11537,12 +11542,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -11781,12 +11786,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -11987,12 +11992,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -12104,12 +12109,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -12574,12 +12579,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -12679,12 +12684,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -13004,12 +13009,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -13287,12 +13292,12 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
@@ -13534,12 +13539,17 @@ PrefabInstance:
     - target: {fileID: 259445750560281313, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_TagString
-      value: Checkpoint
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3503306928486581705, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026505697328881351, guid: bbea7dd68efd344ac9153f62147492c1,
         type: 3}
