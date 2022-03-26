@@ -8,8 +8,8 @@ action = 0
 states = []
 device = 'cpu'
 net = DQN((3,45,80),k).to(device)
-model_path = "./best_model.dat"
-net.load_state_dict(torch.load(model_path, map_location=lambda storage, loc: storage))
+#model_path = "./best_model.dat"
+#net.load_state_dict(torch.load(model_path, map_location=lambda storage, loc: storage))
 
 def step(action):
     global robot
@@ -26,6 +26,8 @@ def execute(change):
     # Visualize
     img = cv2.resize(change["new"],(80,45))
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    img[img<200] = 0
+    img[img>=200] = 255
     #cv2.imshow("camera", img)
     #cv2.waitKey(1)
 

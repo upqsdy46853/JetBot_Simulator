@@ -98,6 +98,8 @@ def execute(change):
     # Visualize
     img = cv2.resize(change["new"],(80,45))
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    img[img<200] = 0
+    img[img>=200] = 255 
     #cv2.imshow("camera", img)
     #cv2.waitKey(1)
     reward = change['reward']
@@ -148,7 +150,7 @@ def execute(change):
     else:
         step(action)
 
-    # testing
+    #testing
     #i = input()
     #if i == 'r' or change['done']:
     #    robot.reset()

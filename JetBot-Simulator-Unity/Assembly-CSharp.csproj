@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\jetbotWheel.cs" />
      <Compile Include="Assets\Scripts\cameraSwitch.cs" />
      <Compile Include="Assets\Scripts\loadTexture.cs" />
+     <Compile Include="Assets\Scripts\reset.cs" />
      <Compile Include="Assets\Scripts\cameraMouseMove.cs" />
      <Compile Include="Assets\Scripts\jetbotCamera.cs" />
      <Compile Include="Assets\Scripts\posText.cs" />
